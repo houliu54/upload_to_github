@@ -23,7 +23,8 @@ pipeline{
             <body leftmargin="8" marginwidth="0" topmargin="8" marginheight="4" offset="0">
               <h1>${JENKINS_URL}---中pipeline模块</h1>
             </body>
-            </html>''', subject: 'pipeline_using', to: '2019106279@qq.com'
+            </html>''', 
+            subject: 'pipeline_using', to: '2019106279@qq.com'
         }
     }
 }
