@@ -6,5 +6,15 @@ pipeline{
                 bat 'python pipeline_test.py'
             }
         }
+         stage('show demo'){
+            steps{
+                bat 'show me.....'
+            }  
+        }
+    }
+    post{
+        always{
+            12345678
+        }
     }
 }
