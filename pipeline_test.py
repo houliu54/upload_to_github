@@ -1,5 +1,8 @@
-def pipeline():
-    print('这是专门为验证pipeline创建的函数')
+import pytest
+
+class TestPipeline():
+    def testpip(self):
+        assert 1==1
 
 if __name__ == '__main__':
-    pipeline()
+    pytest.main(['-vs'])
